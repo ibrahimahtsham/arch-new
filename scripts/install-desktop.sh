@@ -20,3 +20,8 @@ echo "font cache rebuilt"
 # ttf-dejavu, ttf-liberation, and noto-fonts provide widely-used TrueType fonts so UI text renders.
 # noto-fonts-emoji adds emoji glyphs to avoid missing characters.
 # xorg-fonts-misc provides legacy bitmap fonts (e.g., "fixed") some apps may fallback to.
+
+# copy the openbox configuration files to the user's home directory in a folder called openbox-backup
+mkdir -p "$HOME/openbox-config-backup"
+cp -r /etc/xdg/openbox/* "$HOME/openbox-config-backup/"
+
