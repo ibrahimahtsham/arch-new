@@ -1,31 +1,22 @@
-📝 𝗔𝗿𝗰𝗵 𝗜𝗻𝘀𝘁𝗮𝗹𝗹 𝗙𝗶𝗻𝗮𝗹 𝗖𝗼𝗻𝗳𝗶𝗴 (𝗖𝗵𝗿𝗼𝗺𝗲𝗯𝗼𝗼𝗸)
+📝 Arch Install Final Config (Chromebook)
+Chromebook Specs: 4 GB RAM, 32 GB eMMC, Intel Celeron N4000 with Intel UHD 600
 
-✅ Filesystem: f2fs
+Filesystem: f2fs
 
-❌ Unified Kernel Image: disabled
+Unified Kernel Image: disabled
 
-✅ Swap: zram enabled
+Swap: zram enabled
 
-✅ Profile: xorg
+Profile: xorg
 
-✅ Greeter: ly
+Greeter: ly
 
-✅ Graphics: intel drivers
+Graphics: intel drivers
 
-✅ Bluetooth: enabled
+Bluetooth: enabled
 
-✅ Audio: pipewire (+ wireplumber)
+Audio: pipewire (+ wireplumber)
 
-✅ Kernel: linux-lts
+Kernel: linux-lts
 
-✅ Time Sync (NTP): enabled
-
-💡 After install:
-
-WM: i3 or openbox
-
-Panel: tint2 (tray, wifi, audio, brightness, usage stats)
-
-Theme: arc-dark or numix-dark
-
-Apps: firefox, discord, nm-applet, blueman, pavucontrol
+Time Sync (NTP): enabled
