@@ -55,3 +55,15 @@ Greeter: ly
 - Firefox
 - VS Code (Microsoft)
 - scrot
+
+## Command after arch install
+
+```bash
+sudo pacman -Syu base-devel git
+```
+
+### Clone repo
+
+```bash
+git clone https://github.com/ibrahimahtsham/arch-openbox.git
+```
