@@ -19,9 +19,11 @@ sudo pacman -Syu --needed --noconfirm \
 	xorg-fonts-misc
 
 sudo systemctl enable --now ly.service
+echo "ly enabled"
 
 # Rebuild the font cache so new fonts are immediately available to apps
 sudo fc-cache -f
+echo "font cache rebuilt"
 
 # xorg-server is used for display server that is responsible for rendering graphics on the screen.
 # xorg-xrandr is used for managing screen resolutions and orientations.
