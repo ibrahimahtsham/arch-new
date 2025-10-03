@@ -15,7 +15,7 @@ Graphics: intel drivers
 
 Bluetooth: enabled
 
-Audio: pipewire (+ wireplumber)
+Audio: pipewire
 
 Kernel: linux-lts
 
