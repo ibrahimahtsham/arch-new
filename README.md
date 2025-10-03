@@ -1,22 +1,57 @@
-📝 Arch Install Final Config (Chromebook)
-Chromebook Specs: 4 GB RAM, 32 GB eMMC, Intel Celeron N4000 with Intel UHD 600
+## System Goal
 
-Filesystem: f2fs
+Use components that by default provide a dark theme, with low idle RAM usage and minimal configuration — avoiding both excessive tweaking and unnecessary bloat.
 
-Unified Kernel Image: disabled
+## System Philosophy
 
-Swap: zram enabled
+* Lightweight setup
+* Very low idle RAM usage
+* Minimal configuration overhead
+* No unnecessary bloat
 
-Profile: xorg
+## Device Specs
 
+Model: Chromebook
+RAM: 4 GB
+Storage: 32 GB eMMC
+CPU: Intel Celeron N4000
+GPU: Intel UHD 600
+
+## Arch Install Steps
+
+* Filesystem: f2fs
+* Unified Kernel Image: Disabled
+* Swap: zram enabled
+* Profile: xorg
+* Greeter: ly
+* Graphics: Intel drivers
+* Bluetooth: Enabled
+* Audio: PipeWire
+* Kernel: linux-lts
+* Time Sync (NTP): Enabled
+
+## Desktop Setup
+
+Window Manager: openbox
+Panel / Taskbar: tint2
 Greeter: ly
 
-Graphics: intel drivers
+## Taskbar Requirements
 
-Bluetooth: enabled
+* Simple taskbar with:
 
-Audio: pipewire
+  * Volume & Brightness controls (hover + scroll to adjust)
+  * Icon-based status indicators
+  * CPU usage
+  * GPU usage
+  * RAM usage
+  * CPU temperature
+  * Wi-Fi connectivity
+  * Bluetooth status
+  * Date & time
 
-Kernel: linux-lts
+## Planned Applications
 
-Time Sync (NTP): enabled
+* Discord
+* Firefox
+* VS Code
