@@ -49,7 +49,7 @@ Greeter: ly
   * Bluetooth status
   * Date & time
 
-## Planned Applications
+## Applications
 
 * Discord
 * Firefox
