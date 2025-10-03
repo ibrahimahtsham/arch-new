@@ -16,19 +16,6 @@ Use components that by default provide a dark theme, with low idle RAM usage and
 - No unnecessary bloat
 - be able to replicate this by just having a simple repo with some configs and a script that when i run it, it will basically clone my system
 
-## Arch Install Steps
-
-- Filesystem: f2fs
-- Unified Kernel Image: Disabled
-- Swap: zram enabled
-- Profile: xorg
-- Greeter: ly
-- Graphics: Intel drivers
-- Bluetooth: Enabled
-- Audio: PipeWire
-- Kernel: linux-lts
-- Time Sync (NTP): Enabled
-
 ## Desktop Setup
 
 Window Manager: openbox
@@ -56,7 +43,27 @@ Greeter: ly
 - VS Code (Microsoft)
 - scrot
 
-## Command after arch install
+## Arch Install Steps
+
+### Get arch iso
+```bash
+wget https://mirror.rackspace.com/archlinux/iso/latest/archlinux-x86_64.iso
+```
+
+flash to usb using balenaetcher, and when booted to live usb run arch install after connecting to internet using iwctl (use help after running iwctl incase forgor)
+
+- Filesystem: f2fs
+- Unified Kernel Image: Disabled
+- Swap: zram enabled
+- Profile: xorg
+- Greeter: ly
+- Graphics: Intel drivers
+- Bluetooth: Enabled
+- Audio: PipeWire
+- Kernel: linux-lts
+- Time Sync (NTP): Enabled
+
+## Command after archinstall
 
 ```bash
 sudo pacman -Syu base-devel git
