@@ -3,8 +3,8 @@
 Model: Chromebook
 RAM: 4 GB
 Storage: 32 GB eMMC
-CPU: Intel Celeron N4000
-GPU: Intel UHD 600## System Goal
+CPU: Intel(R) Celeron(R) N4000 (2) @ 2.60 GHz
+GPU: Intel UHD Graphics 600 @ 0.65 GHz (Integrated)
 
 Use components that by default provide a dark theme, with low idle RAM usage and minimal configuration — avoiding both excessive tweaking and unnecessary bloat.
 
@@ -66,7 +66,7 @@ flash to usb using balenaetcher, and when booted to live usb run arch install af
 ## Command after archinstall
 
 ```bash
-sudo pacman -Syu base-devel git
+sudo pacman -Syu base-devel git vim
 ```
 
 ### Clone repo
