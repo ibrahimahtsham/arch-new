@@ -26,7 +26,7 @@ mkdir -p "$HOME/openbox-config-backup"
 cp -r /etc/xdg/openbox/* "$HOME/openbox-config-backup/"
 echo "openbox configuration files backed up to $HOME/openbox-config-backup/"
 
-#link openbox-configs from git to the one in etc/xdg/openbox
+# link openbox-configs from git to the one in etc/xdg/openbox
 sudo rm -rf /etc/xdg/openbox
 sudo ln -s "$HOME/arch-openbox/openbox-configs" /etc/xdg/openbox
 echo "openbox configuration files linked from $HOME/arch-openbox/openbox-configs to /etc/xdg/openbox"
