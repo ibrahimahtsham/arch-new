@@ -1,22 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-sudo pacman -Syu --needed --noconfirm \
-	# Xorg display server + tools
-	xorg-server xorg-xrandr xorg-xauth \
-	# TUI display manager
-	ly \
-	# Window manager
-	openbox \
-	# Terminal emulator
-	kitty \
-	# Fonts (needed so menu and UI text render correctly)
-	fontconfig \
-	ttf-dejavu \
-	ttf-liberation \
-	noto-fonts \
-	noto-fonts-emoji \
-	xorg-fonts-misc
+sudo pacman -Syu --needed --noconfirm xorg-server xorg-xrandr xorg-xauth ly openbox kitty fontconfig ttf-dejavu ttf-liberation noto-fonts noto-fonts-emoji xorg-fonts-misc
 
 sudo systemctl enable --now ly.service
 echo "ly enabled"
