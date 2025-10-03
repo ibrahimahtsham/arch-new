@@ -10,24 +10,24 @@ Use components that by default provide a dark theme, with low idle RAM usage and
 
 ## System Philosophy
 
-* Lightweight setup
-* Very low idle RAM usage
-* Minimal configuration overhead
-* No unnecessary bloat
-* be able to replicate this by just having a simple repo with some configs and a script that when i run it, it will basically clone my system
+- Lightweight setup
+- Very low idle RAM usage
+- Minimal configuration overhead
+- No unnecessary bloat
+- be able to replicate this by just having a simple repo with some configs and a script that when i run it, it will basically clone my system
 
 ## Arch Install Steps
 
-* Filesystem: f2fs
-* Unified Kernel Image: Disabled
-* Swap: zram enabled
-* Profile: xorg
-* Greeter: ly
-* Graphics: Intel drivers
-* Bluetooth: Enabled
-* Audio: PipeWire
-* Kernel: linux-lts
-* Time Sync (NTP): Enabled
+- Filesystem: f2fs
+- Unified Kernel Image: Disabled
+- Swap: zram enabled
+- Profile: xorg
+- Greeter: ly
+- Graphics: Intel drivers
+- Bluetooth: Enabled
+- Audio: PipeWire
+- Kernel: linux-lts
+- Time Sync (NTP): Enabled
 
 ## Desktop Setup
 
@@ -37,21 +37,21 @@ Greeter: ly
 
 ## Taskbar Requirements
 
-* Simple taskbar with:
+- Simple taskbar with:
 
-  * Volume & Brightness controls (hover + scroll to adjust)
-  * Icon-based status indicators
-  * CPU usage
-  * GPU usage
-  * RAM usage
-  * CPU temperature
-  * Wi-Fi connectivity
-  * Bluetooth status
-  * Date & time
+  - Volume & Brightness controls (hover + scroll to adjust)
+  - Icon-based status indicators
+  - CPU usage
+  - GPU usage
+  - RAM usage
+  - CPU temperature
+  - Wi-Fi connectivity
+  - Bluetooth status
+  - Date & time
 
 ## Applications
 
-* Discord
-* Firefox
-* VS Code
-* scrot
+- Discord
+- Firefox
+- VS Code (Microsoft)
+- scrot
