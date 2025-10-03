@@ -1,4 +1,10 @@
-## System Goal
+## Device Specs
+
+Model: Chromebook
+RAM: 4 GB
+Storage: 32 GB eMMC
+CPU: Intel Celeron N4000
+GPU: Intel UHD 600## System Goal
 
 Use components that by default provide a dark theme, with low idle RAM usage and minimal configuration — avoiding both excessive tweaking and unnecessary bloat.
 
@@ -8,14 +14,7 @@ Use components that by default provide a dark theme, with low idle RAM usage and
 * Very low idle RAM usage
 * Minimal configuration overhead
 * No unnecessary bloat
-
-## Device Specs
-
-Model: Chromebook
-RAM: 4 GB
-Storage: 32 GB eMMC
-CPU: Intel Celeron N4000
-GPU: Intel UHD 600
+* be able to replicate this by just having a simple repo with some configs and a script that when i run it, it will basically clone my system
 
 ## Arch Install Steps
 
@@ -55,3 +54,4 @@ Greeter: ly
 * Discord
 * Firefox
 * VS Code
+* scrot
